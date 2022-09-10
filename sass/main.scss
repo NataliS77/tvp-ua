@@ -1,0 +1,24 @@
+//utils styles
+
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/animations';
+
+//base styles
+
+@import './base/base';
+@import './base/reset';
+
+//components styles
+
+//@import './components/buttons';
+@import './components/container';
+@import './components/section';
+
+
+@import'./components/backdrop';
+
+//layout styles
+
+@import './layout/header';
+@import './layout/hero';
