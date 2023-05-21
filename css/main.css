@@ -85,10 +85,6 @@ img {
   border-bottom: 1px solid transparent;
 }
 
-* section {
-  outline: 2px solid green;
-}
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -133,10 +129,12 @@ img {
 }
 
 .nav__link {
-  padding: 20px;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: #191970;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.12;
 }
 .nav__link:hover, .nav__link:focus {
@@ -210,7 +208,7 @@ img {
 
 .hero__text {
   color: #191970;
-  padding-left: 15%;
+  padding-left: 15px;
   margin-bottom: 12px;
   font-weight: 500;
   font-size: 20px;
@@ -346,4 +344,15 @@ img {
 
 .footer__item:not(:last-child) {
   margin-bottom: 8px;
+}
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  background-color: var(--main-bg-color);
+  background-repeat: repeat-y;
+  background-position: center;
+  background-image: linear-gradient(173deg, rgba(255, 255, 255, 0.897) 17%, rgb(223, 251, 250) 200%), url(../images/logo2.png);
+  background-size: auto;
 }/*# sourceMappingURL=main.css.map */
