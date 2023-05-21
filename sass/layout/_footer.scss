@@ -1,0 +1,83 @@
+.footer{
+    
+    padding-bottom: 60px;
+    background-color: gray;
+}
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer-logo{
+    display: flex;
+    padding: 20px;
+}
+.footer-about{
+    display: block;
+    align-items: center;
+    padding: 20px;
+}
+.footer__list-about{
+    display: flex;
+    //align-items: center;
+    justify-content: center;
+    padding: 20px;
+     gap: 20px;
+
+}
+
+.footer__link-about{
+        //width: 130px;
+        padding:12px;
+        color: $accTextColor;
+        
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.18;
+        
+&:hover,
+&:focus {
+       
+        background-color: $btnBgolor;
+        border: 1px solid $btnBgolor;
+}
+}
+
+.footer-contact{
+    display: block;
+    padding: 20px;
+    text-align: end;
+}
+.footer__title{
+    color: $primaryTextColor;
+    margin-bottom: 20px;
+
+    font-family: "Raleway";
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+       
+}
+.footer-address{
+    margin-bottom: 8px;
+
+        color: $primaryTextColor;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+
+}
+.footer__link{
+    color: $primaryTextColor;
+
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+}
+.footer__item:not(:last-child){
+    margin-bottom: 8px;
+}

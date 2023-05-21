@@ -6,15 +6,59 @@
 .nav{
     display: flex;
 }
-.nav__list{
-
-    color: var(--primary-text-color);
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+.nav__logo{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 
 }
+.nav__list{
+ display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+margin-right: auto;
+
+}
+.nav__link{
+    //width: 130px;
+    padding: 20px;
+    color: $primaryTextColor;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.12;
+&:hover,
+&:focus{
+    color: $primaryBgcolor;
+    background-color:$AccentBackColor;
+    border: 1px solid blue;
+
+}
+}
+
 .nav__list-leng{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+}
+.nav__link-leng{
+   
+    padding-top: 20px;
+     padding-bottom: 20px;
+
+
+    color:$primaryTextColor;
+    
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+&:hover,
+&:focus{
+    color: $acctent-color;
+}
     
 }

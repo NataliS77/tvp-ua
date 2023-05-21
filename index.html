@@ -1,22 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ukr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>firma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+
 </head>
 <body>
    <!--шапка сайта--> 
    <header class="header section">
+    <div class="nav-container container">
             <nav class="nav">
             <ul class="nav__list list">
-            <li class="nav__item item"><a class="nav__link link" href="">
+            <li class="nav__item item"><a class="nav__logo link" href="">
                 <img src="./images/Logo_En.jpg" alt="logo">
             </a></li>
-            <li class="nav__item item"><a class="nav__link link" href="">Про фірму</a></li>
+            <li class="nav__item item"><a class="nav__link link" href="./index.html">Про фірму</a></li>
             <li class="nav__item item"><a class="nav__link link" href="">Група TWP</a></li>
-            <li class="nav__item item"><a class="nav__link link" href="">Продукція</a></li>
+            <li class="nav__item item"><a class="nav__link link" href="./products.html">Продукція</a></li>
             <li class="nav__item item"><a class="nav__link link" href="">Контакти</a></li>
         </ul>
         <ul class="nav__list-leng list">
@@ -26,18 +36,22 @@
         </ul>
 
         </nav>
+    </div>
     
        </header>
        <main>
         <!--section hero-->
         <section class="hero section">
-            <div class="hero-container">
+            <div class="hero-container container">
                 <h1 class="hero__title">Виробництво стаканчиків і кришок з полімерів
                 для упаковки харчових продуктів</h1>
         </div>
-        <div class="container">
-            <h2 class="hero__titles">про фірму</h2>
-            <img src="./images/stak1.png" alt="glasses">
+        <div>
+            <img class="hero__img" src="./images/stak2.gif" alt="glasses"></div>
+        </div>
+        <div class="hero-container container">
+            <!--<h2 class="hero__titles">про фірму</h2>-->
+            
             <p class="hero__text">Ми виробляємо полімерні стаканчики і баночки (PS, PP), кришки (PS, PP) для упаковки кисломолочних та інших харчових
             продуктів (сметана, йогурт, молочний десерт, плавлений сир, ряжанка, кисле молоко та ін.)..</p>
             <p class="hero__text">Варіанти декорування нашої продукції:</p>
@@ -50,34 +64,38 @@
             <p class="hero__text">Надаємо замовнику послуги з розробки дизайну декорування, доведенні і адаптації його до вимог технології виробництва.</p>
             <span class="hero__span">Підприємство утворено в 1996 році як дочірнє підприємство німецької фірми
                 <a class="hero__link link" href="https://twp.group/index-en.html">"twp lage gmbh"</a></span>
-            <p class="hero__text">Основа нашої роботи - опора на якість, комплексність послуг, оперативність виконання замовлень, а також на надання
+            <p class="hero__text hero__text-last">Основа нашої роботи - опора на якість, комплексність послуг, оперативність виконання замовлень, а також на надання
             обширних консультацій для наших клієнтів.</p>
-            <img src="./images/stak2.png" alt="glasses">
+        </div>
+          <div>
+            <img class="hero__img-2" src="./images/stak1.gif" alt="glasses"></div>
         </div>
         </section>
+          
         <!--section product-->
-        <section>
-            <div>
-                <ul>
-                    <li>
-                        <p>картонна обичайка</p>
-                        <a href=""><img src="./images/K3 foto.jpg" alt="стакан"></a>
+        <section class="product section">
+            <h1 class="visually-hidden">product</h1>
+            <div class="product container">
+                <ul class="product__list list">
+                    <li class="product__item item">
+                        <p class="product__text">картонна обичайка</p>
+                        <a class="product__link link" href=""><img src="./images/стакани/crema.jpg" alt="стакан"></a>
                     </li>
-                    <li>
-                        <p>термозбіжна етикетка</p>
-                        <a href=""><img src="./images/Sleeve foto.jpg" alt="етикетка"></a>
+                    <li class="product__item item">
+                        <p class="product__text">термозбіжна етикетка</p>
+                        <a class="product__link link" href=""><img src="./images/Sleeve_foto-removebg-preview.jpg" alt="етикетка"></a>
                     </li>
-                    <li>
-                        <p>самоклеюча етикетка</p>
-                        <a href=""><img src="./images/Label foto.jpg" alt="етикетка"></a>
+                    <li class="product__item item">
+                        <p class="product__text">самоклеюча етикетка</p>
+                        <a class="product__link link" href=""><img src="./images/стакани/Label_foto-removebg-preview.jpg" alt="етикетка"></a>
                     </li>
-                    <li>
-                        <p>офсетний друк</p>
-                        <a href=""><img src="./images/Pritn foto.jpg" alt="прінт"></a>
+                    <li class="product__item item">
+                        <p class="product__text">офсетний друк</p>
+                        <a class="product__link link" href=""><img src="./images/Pritn_foto-removebg-preview.jpg" alt="прінт"></a>
                     </li>
-                    <li>
-                        <p>кришка PP</p>
-                        <a href=""><img src="./images/Deckel foto.jpg" alt="кришка"></a>
+                    <li class="product__item item">
+                        <p class="product__text">кришка PP</p>
+                        <a class="product__link link" href=""><img src="./images/стакани/Deckel_foto-removebg-preview.jpg" alt="кришка"></a>
                     </li>
                 </ul>
 
@@ -86,19 +104,29 @@
 
        </main>
        <footer>
-        <section>
-            <div>
-                <a href=""><img src="./images/logo_hn_e.jpg" alt=""></a>
-            </div>
-            <div>
-                <h2>СУНП "ТВП Україна ЛТД."</h2>
-                <address>Україна, м.Харкiв, вул. Роганська 149</address>
-               <ul>
-                <li><a href="tel:+380505296964">продаж: +380 50 529 6964</a></li>
-                <li><a href="tel:+380503013626">фін: +380 50 301 3626</a></li>
-                <li><a href="mailto:twp.ukr@gmail.com">e-mail: twp.ukr@gmail.com</a></li>
+        <section class="footer section">
+            <div class="footer__container container">
+                <div class="footer-logo">
+                <a class="footer__link-logo link" href=""><img src="./images/logo_hn_e.jpg" alt=""></a>
+                </div>
+                <div class="footer-about">
+                    <ul class="footer__list-about list">
+                        <li class="footer__item item"><a class="footer__link-about link" href="">Про фірму</a></li>
+                        <li class="footer__item item"><a class="footer__link-about link" href="">Група TWP</a></li>
+                        <li class="footer__item item"><a class="footer__link-about link" href="">Продукція</a></li>
+                        <li class="footer__item item"><a class="footer__link-about link" href="">Контакти</a></li>
+                    </ul>
+                </div>
+            <div class="footer-contact">
+                <h2 class="footer__title">СУНП "ТВП Україна ЛТД."</h2>
+                <address class="footer-address">Україна, м.Харкiв, вул. Роганська 149</address>
+               <ul class="footer__list list">
+                <li class="footer__item"><a class="footer__link" href="tel:+380505296964">продаж: +380 50 529 6964</a></li>
+                <li class="footer__item"><a class="footer__link" href="tel:+380503013626">фін: +380 50 301 3626</a></li>
+                <li class="footer__item"><a class="footer__link" href="mailto:twp.ukr@gmail.com">e-mail: twp.ukr@gmail.com</a></li>
                </ul>
-            </div>
+            </div>   
+             </div>
         </section>
        </footer>
 </body>
