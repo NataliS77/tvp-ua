@@ -18,25 +18,36 @@
 <body>
    <!--шапка сайта--> 
    <header class="header section">
-    <div class="nav-container container">
-            <nav class="nav">
-            <ul class="nav__list list">
-            <li class="nav__item item"><a class="nav__logo link" href="">
-                <img src="./images/Logo_En.jpg" alt="logo">
-            </a></li>
-            <li class="nav__item item"><a class="nav__link link" href="./index.html">Про фірму</a></li>
-            <li class="nav__item item"><a class="nav__link link" href="">Група TWP</a></li>
-            <li class="nav__item item"><a class="nav__link link" href="./products.html">Продукція</a></li>
+    <div class="logo-container container">
+        <a class="logo"  href="#"><img src="./images/Logo_En.jpg" alt="logo"></a> </div>
+
+        <nav class="nav">
+            <ul class="nav__list list" >
+            <li class="nav__item item"><a class="nav__link nav__link--current nav__link--ferst link" href="./index.html">Про фірму</a></li>
+            <li class="nav__item item"><a class="nav__link link" href="./products.html">Продукція &blacktriangledown;</a>
+            <ul class="nav__list-wind list" >
+                <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Стакани РР</a></li>
+                <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Стакани РS</a></li>
+                <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Стакани у картонній обічайці</a></li>
+                 <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Стакани PS та РР</a></li> 
+                 <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Кришка полімерна</a></li>
+            </ul></li>
+            <li class="nav__item item"><a class="nav__link link" href="">Сертифікати</a></li>
             <li class="nav__item item"><a class="nav__link link" href="">Контакти</a></li>
         </ul>
         <ul class="nav__list-leng list">
-            <li class="nav__item-leng item"><a class="nav__link-leng link" href="">en</a></li>
-            <li class="nav__item-leng item"><a class="nav__link-leng link" href="">ru</a></li>
-            <li class="nav__item-leng item"><a class="nav__link-leng link" href="">ua</a></li>
+            <li class="nav__item-leng list"><a class="nav__link-leng link" href="#">Lenguage &blacktriangledown;</a>
+            <ul class="nav__list-wind-leng">
+                <li class="nav__item-wind-leng  item"><a class="nav__link-wind-leng link" href="">Engish</a></li>
+            <li class="nav__item-wind-leng item"><a class="nav__link-wind-leng link" href="">Deutsch</a></li>
+            <li class="nav__item-wind-leng item"><a class="nav__link-wind-leng nav__link--current link" href="">Український</a></li>
+            <li class="nav__item-wind-leng item"><a class="nav__link-wind-leng link" href="">Русский</a></li>
+            </ul></li>
+            
         </ul>
-
+       
         </nav>
-    </div>
+   
     
        </header> 
        <main>
@@ -46,13 +57,13 @@
                 <h1 class="hero__title">Виробництво стаканчиків і кришок з полімерів
                 для упаковки харчових продуктів</h1>
         </div>
-        <div>
-            <img class="hero__img" src="./images/stak2.gif" alt="glasses"></div>
-        </div>
-        <div class="hero-container container">
+       
+        <div class="hero-container-text container">
             <!--<h2 class="hero__titles">про фірму</h2>-->
-            
-            <p class="hero__text">Ми виробляємо полімерні стаканчики і баночки (PS, PP), кришки (PS, PP) для упаковки кисломолочних та інших харчових
+            <div class="hero__container-img">
+            <img class="hero__img" src="./images/stak2.gif" alt="glasses"></div>
+        <div class="hero-container-text">
+            <p class="hero__text">Ми в иробляємо полімерні стаканчики і баночки (PS, PP), кришки (PS, PP) для упаковки кисломолочних та інших харчових
             продуктів (сметана, йогурт, молочний десерт, плавлений сир, ряжанка, кисле молоко та ін.)..</p>
             <p class="hero__text">Варіанти декорування нашої продукції:</p>
             <ul class="hero__list list">
@@ -65,11 +76,12 @@
             <span class="hero__span">Підприємство утворено в 1996 році як дочірнє підприємство німецької фірми
                 <a class="hero__link link" href="https://twp.group/index-en.html">"twp lage gmbh"</a></span>
             <p class="hero__text hero__text-last">Основа нашої роботи - опора на якість, комплексність послуг, оперативність виконання замовлень, а також на надання
-            обширних консультацій для наших клієнтів.</p>
+            обширних консультацій для наших клієнтів.</p></div>
+             <div class="hero__img-2 img">
+            <img  src="./images/stak1.gif" alt="glasses"></div>
         </div>
-          <div>
-            <img class="hero__img-2" src="./images/stak1.gif" alt="glasses"></div>
         </div>
+         
         </section>
           
         <!--section product-->
@@ -111,9 +123,9 @@
                 </div>
                 <div class="footer-about">
                     <ul class="footer__list-about list">
-                        <li class="footer__item item"><a class="footer__link-about link" href="">Про фірму</a></li>
-                        <li class="footer__item item"><a class="footer__link-about link" href="">Група TWP</a></li>
-                        <li class="footer__item item"><a class="footer__link-about link" href="">Продукція</a></li>
+                        <li class="footer__item item"><a class="footer__link-about link" href="./index.html">Про фірму</a></li>
+                        <li class="footer__item item"><a class="footer__link-about link" href="./products.html">Продукція</a></li>
+                        <li class="footer__item item"><a class="footer__link-about link" href="">Сертифікати</a></li>
                         <li class="footer__item item"><a class="footer__link-about link" href="">Контакти</a></li>
                     </ul>
                 </div>
