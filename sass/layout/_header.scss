@@ -35,9 +35,8 @@ margin-right: auto;
 
 &:hover,
 &:focus{
-    color: $primaryBgcolorbl;
-    background-color:$AccentBackColor;
-     border: 1px solid rgb(21, 18, 241);
+    color: blue;
+    background-color:white;
 
  }
 }
@@ -73,7 +72,6 @@ margin-right: auto;
        top: 20px;
        padding: 20px 0px 0px 0px;
        min-width: 300px;
-
         background-color:white;
         display: none;
     }
@@ -89,7 +87,7 @@ margin-right: auto;
 
 }
 
- .list-leng{
+.list-leng{
   position: absolute;
     display: flex;
     margin-top: -8%;
