@@ -18,27 +18,38 @@
 <body>
     <!--шапка сайта-->
     <header class="header section">
-        <div class="nav-container container">
+        <div class="logo-container container">
+            <a class="logo"  href="#"><img src="./images/Logo_En.jpg" alt="logo"></a></div>
+    
             <nav class="nav">
-                <ul class="nav__list list">
-                    <li class="nav__item item"><a class="nav__logo link" href="">
-                            <img src="./images/Logo_En.jpg" alt="logo">
-                        </a></li>
-                    <li class="nav__item item"><a class="nav__link link" href="">О фирме</a></li>
-                    <li class="nav__item item"><a class="nav__link link" href="">Группа TWP</a></li>
-                    <li class="nav__item item"><a class="nav__link link" href="">Продукция</a></li>
-                    <li class="nav__item item"><a class="nav__link link" href="">Контакты</a></li>
-                </ul>
-                <ul class="nav__list-leng list">
-                    <li class="nav__item-leng item"><a class="nav__link-leng link" href="./doc_en.html">en</a></li>
-                    <li class="nav__item-leng item"><a class="nav__link-leng link" href="./doc_ru.html">ru</a></li>
-                    <li class="nav__item-leng item"><a class="nav__link-leng link" href="./index.html">ua</a></li>
-                </ul>
-    
+                <ul class="nav__list list" >
+                <li class="nav__item item"><a class="nav__link nav__link--current nav__link--activ link" href="./index.html">О фирме</a></li>
+                <li class="nav__item item"><a class="nav__link link" href="./products.html">Продукция &blacktriangledown;</a>
+                <ul class="nav__list-wind list" >
+                    <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Стаканы РР</a></li>
+                    <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Стаканы РS</a></li>
+                    <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Стаканы в  картонной обичайке</a></li>
+                     <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Стаканы PS и РР</a></li> 
+                     <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Крышка полимерная</a></li>
+                </ul></li>
+                <li class="nav__item item"><a class="nav__link link" href="">Сертификаты</a></li>
+                <li class="nav__item item"><a class="nav__link link" href="">Контакты</a></li>
+            </ul>
+       
+           
             </nav>
-        </div>
-    
-    </header>
+            <ul class="list-leng list">
+                <li class="item-leng list"><a class="link-leng link" href="#">Language &blacktriangledown;</a>
+                <ul class="list-wind-leng">
+                    <li class="item-wind-leng  item"><a class="link-wind-leng link" href="./doc_en.html">Engish</a></li>
+                <li class="item-wind-leng item"><a class="link-wind-leng link" href="#">Deutsch</a></li>
+                <li class="item-wind-leng item"><a class="link-wind-leng " href="./index.html">Український</a></li>
+                <li class="item-wind-leng item"><a class="link-wind-leng nav__link--current link link" href="./doc_ru.html">Русский</a></li>
+                </ul></li>
+                
+            </ul>
+        
+           </header> 
     <main>
         <!--section hero-->
         <section class="hero section">
@@ -48,10 +59,9 @@
             </div>
             <div class="hero-container container">
                 <!--<h2 class="hero__titles">про фірму</h2>-->
-                <div>
-                    <img class="hero__img" src="./images/stak2.png" alt="glasses">
-                </div>
-                <div>
+                <div class="hero__container-img">
+                    <img class="hero__img" src="./images/stak2.gif" alt="glasses"></div>
+                <div class="hero-container-text">
                     <p class="hero__text">Мы производим полимерные стаканчики и баночки (PS, PP), крышки (PS, PP) для упаковки кисломолочных и других пищевых
                     продуктов (сметана, йогурт, молочный десерт, плавленый сыр, ряженка, простокваша и др.)...</p>
                     <p class="hero__text">Варианты декорирования нашей продукции:</p>
@@ -69,9 +79,9 @@
                     <p class="hero__text hero__text-last">Основа нашей работы - упор на качество, комплексность услуг, оперативность исполнения заказов, а также на предоставление
                     обширных консультаций для наших клиентов.</p>
                 </div>
-                <div>
-                    <img class="hero__img-2" src="./images/stak1.png" alt="glasses">
-                </div>
+                <div class="hero__img-2 img">
+                    <img  src="./images/stak1.gif" alt="glasses"></div>
+            
             </div>
         </section>
         <!--section product-->
@@ -118,13 +128,13 @@
                 <div class="footer-about">
                     <ul class="footer__list-about list">
                         <li class="footer__item item"><a class="footer__link-about link" href="">О фирме</a></li>
-                        <li class="footer__item item"><a class="footer__link-about link" href="">Группа TWP</a></li>
                         <li class="footer__item item"><a class="footer__link-about link" href="">Продукция</a></li>
+                        <li class="footer__item item"><a class="footer__link-about link" href="">Сертификаты</a></li>
                         <li class="footer__item item"><a class="footer__link-about link" href="">Контакты</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
-                    <h2 class="footer__title">СУНП "ТВП Украина ЛТД."</h2>
+                    <h2 class="footer__title">СУНП "ТВП Украина ЛТД"</h2>
                     <address class="footer-address">Украина, г.Харьков, ул. Роганская 149</address>
                     <ul class="footer__list list">
                         <li class="footer__item"><a class="footer__link" href="tel:+380505296964">сбыт: +380 50 529
