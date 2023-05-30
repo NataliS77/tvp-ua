@@ -85,6 +85,12 @@ margin-right: auto;
     display: inline-block;
     padding: 5px 10px;
 
+&:hover,
+&:focus{
+    color: blue;
+    background-color:lightgray;
+
+ }
 }
 
 .list-leng{

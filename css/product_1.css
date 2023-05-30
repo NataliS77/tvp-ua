@@ -1,0 +1,12 @@
+table caption {
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10;
+  border: 1px solid #2a2a2a;
+}/*# sourceMappingURL=product_1.css.map */
