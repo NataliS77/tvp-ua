@@ -20,31 +20,58 @@
 }
 .footer__list-about{
     display: flex;
-    //align-items: center;
-    justify-content: center;
-    padding: 20px;
-     gap: 20px;
+align-items: center;
+justify-content: center;
+gap: 60px;
+margin-top: -50px;
 
 }
 
 .footer__link-about{
-        //width: 130px;
-        //padding:12px;
-        display: block;
-        padding-top: 32px;
-      padding-bottom: 32px;
-        color: $accTextColor;
-        
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.18;
-        
+
+          display: block;
+        padding: 15px;
+          color: $primaryTextColor;
+          text-transform: uppercase;
+      
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 1.12;
+      
 &:hover,
 &:focus {
        
         background-color: $btnBgolor;
         border: 1px solid $btnBgolor;
 }
+}
+.footer__item{
+    position: relative;
+   
+}
+.footer__list-wind{
+    position: absolute;
+       left:0;
+       top: 40px;
+       padding: 15px;
+       min-width: 250px;
+        background-color:gray;
+}
+
+.footer__item-wind{
+    margin-bottom: 5px;
+}
+.footer__item-wind:last-child{
+    margin-bottom: 0;
+}
+
+.footer__link-wind{
+    color: $primaryTextColor;
+    text-transform: uppercase;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.12;
 }
 
 .footer-contact{

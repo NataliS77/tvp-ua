@@ -7,14 +7,14 @@
     justify-content: center;
     width: auto;
     
-    
-    // margin: auto;
+    padding-top: 55px;
+    padding-bottom: 100px;
+    // height: 600px;
+    max-width: 1600px;
+    margin: auto;
     background-color: var(--main-bg-color);
-    background-repeat: repeat-y;
+    background-repeat: repeat-x;
     background-position: center;
-    // background-image: linear-gradient(173deg, rgba(255, 255, 255, 0.897) 17%, rgba(223, 251, 250, 1) 100%), url(images\bg_logo.gif);
-    background-image:linear-gradient(173deg, rgba(255, 255, 255, 0.897) 17%, rgb(223, 251, 250) 200%),url(../images/logo2.png);
-    background-size: auto;
-    background-attachment: fixed;
-    // text-align: center;
+    background-image: linear-gradient(173deg, rgba(255, 255, 255, 0.897) 50%, rgba(223, 251, 250, 1) 200%), url(../images/logo2.png);
+    background-size: 60% 90%;
 }
