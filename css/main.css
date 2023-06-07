@@ -248,9 +248,9 @@ img {
   margin-top: 0;
   color: #191970;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 28px;
   line-height: 1.44;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.09em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -370,28 +370,17 @@ img {
   justify-content: space-between;
 }
 
-.footer-logo {
-  display: flex;
-  align-items: center;
-}
-
-.footer__link-logo {
-  width: 100px;
-  padding: 20px;
-}
-
 .footer-about {
   display: flex;
-  align-items: flex-start;
-  padding: 60px 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  margin-top: -9%;
 }
 
 .footer__list-about {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  margin-top: -50px;
+  flex-wrap: wrap;
 }
 
 .footer__link-about {
@@ -412,7 +401,7 @@ img {
   position: relative;
 }
 
-.footer_list-wind {
+.footer__list-wind {
   position: absolute;
   left: 0;
   top: 40px;
@@ -431,6 +420,7 @@ img {
 
 .footer__link-wind {
   color: #191970;
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.12;
