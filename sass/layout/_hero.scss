@@ -11,7 +11,7 @@
     background-size: 60% 90%;
     //text-align: center;
 .hero-container{
-    padding: 20px 0;
+    padding: 20px;
     margin-bottom: 20px;
 }
     
@@ -34,9 +34,27 @@
      
 // }
 .hero__container-img{
+    display: none;
+  padding: 20px;
+    
+
+@media screen and (min-width: 768px){
     display: flex;
     position: absolute;
-    margin-left: -125px;
+    justify-content: start;
+    align-items: center;
+  
+    margin-top: 55%;
+
+}
+@media screen and (min-width:1200px) {
+    display: flex;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 63px;
+
+    
+}
 }
 
 .hero__img-2{
@@ -66,6 +84,10 @@
       }
 }
   
+.hero-container-text{
+    margin-left: 50px;
+    padding: 20px;
+}
 
 .hero__text{
     color: $primaryTextColor;

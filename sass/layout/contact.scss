@@ -1,0 +1,142 @@
+
+.contact{
+    position: relative;
+    z-index: 1;
+    padding: 60px 0;
+    display: block;
+    // height: 600px;
+    max-width: 1600px;
+    margin: auto;
+    background-color: var(--main-bg-color);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-image: linear-gradient(173deg, rgba(255, 255, 255, 0.897) 50%, rgba(223, 251, 250, 1) 200%), url(../images/logo2.png);
+    background-size: 60% 90%;
+}
+
+.contact__container{
+    display: block;
+text-align: center;
+margin-bottom: 60px; 
+}
+.contact__map{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.contact__box{
+    position: relative;
+   // align-items: center;
+    padding: 8px 20px;
+    
+  
+}
+.contact__title{
+    margin-top: 0;
+    margin-bottom: 20px;
+ 
+
+        color: black;
+    
+        font-weight: 900;
+        font-size: 28px;
+        line-height: calc(36/25);
+        letter-spacing: 0.09em;
+         
+        text-transform: uppercase;
+}
+
+.contact__list{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap:10px;
+    margin-top: auto;
+
+
+    @media screen and (max-width:767px){
+        display: none;
+    }
+
+    @media screen and (min-width: 767px) and (max-width: 1199px){
+        display:block;
+    }
+
+   &.item+.item{
+    @media screen and (min-width:1200px){
+        margin-left: 50px;
+    }
+
+    @media screen and (max-width:1199px){
+        margin-left: 0;
+    }
+   }
+
+};
+
+.contact__item:first-child{
+    @media screen and (max-width: 1199px){
+        margin-bottom: 10px;
+        
+    }
+}
+.contact__item{
+    @media screen and (min-width:1200px) {
+        margin-bottom: 0;
+    }
+};
+
+ .contact__link{
+    @media screen and (min-width:1200px) {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       //gap:8px;
+      // padding-top: 32px;
+       //padding-bottom: 32px;
+       width: 44px;
+       height: 44px;
+       font-weight: 500;
+       font-size: 14px;
+       line-height: 1.14;
+    }
+
+        color:  #191970;
+        
+        @media screen and (min-width:768px) and (max-width:1199px) {
+            display: inline-flex;
+            //gap: 8px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: calc(14/12);
+            padding: 0;
+    
+        }  
+
+        &:hover,
+   &:focus {
+       text-decoration: none;
+       color:  #191970;
+   }
+   
+
+   @media screen and (min-width:768px) and (max-width:1199px){
+    color: #191970;
+   }
+ }
+
+ .contact__icon{
+    fill: currentColor;
+    padding-right: 5px;
+ }
+
+ .contact__map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //margin-left: 41%;
+    // margin-top: 45%;
+   position: relative;
+ }

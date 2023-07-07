@@ -13,7 +13,15 @@
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.min.css" />
-
+    <style>
+        #map {
+          height: 400px;
+          width: 100%;
+        }
+        .contact-info {
+          text-align: center;
+        }
+      </style>
 </head>
 <body>
    <!--шапка сайта--> 
@@ -24,7 +32,7 @@
         <nav class="nav">
             <ul class="nav__list list" >
             <li class="nav__item item"><a class="nav__link  link" href="./index.html">Про фірму</a></li>
-            <li class="nav__item item"><a class="nav__link link" href="./products.html">Продукція &blacktriangledown;</a>
+            <li class="nav__item item"><a class="nav__link link" href="./products.html">Продукція</a>
             <ul class="nav__list-wind list" >
                 <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Стакани РР</a></li>
                 <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Стакани РS</a></li>
@@ -39,7 +47,7 @@
        
         </nav>
         <ul class="list-leng list">
-            <li class="item-leng list"><a class="link-leng link" href="#">Language &blacktriangledown;</a>
+            <li class="item-leng list"><a class="link-leng link" href="#">Language</a>
             <ul class="list-wind-leng">
                 <li class="item-wind-leng  item"><a class="link-wind-leng link" href="./doc_en.html">Engish</a></li>
             <li class="item-wind-leng item"><a class="link-wind-leng link" href="">Deutsch</a></li>
@@ -51,19 +59,106 @@
     
        </header> 
        <main>
-        <section>
+        <!-- <section class=" section contact">
 
-        <div class="contact__container container">
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul></div>
-                <div class="contact__map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2569.2338441681804!2d36.42133767529477!3d49.91318572590397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270c56181830ab%3A0x6a3185cecb0d37fa!2z0YPQuy4g0KDQvtCz0LDQvdGB0LrQsNGPLCAxNDksINCl0LDRgNGM0LrQvtCyLCDQpdCw0YDRjNC60L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgNjEwMDA!5e0!3m2!1sru!2snl!4v1685344337771!5m2!1sru!2snl&key=AIzaSyAFV6-YveLQCqn94zV8mEKGk8IjlOC8g3Q" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+         <div class="contact__container container"> 
+            
+            <h1 class="contact__title">отдел продаж</h1>
+             <div class="contact__box"> 
+                <ul class="contact__list list">
+                    <li class="contact__item item"><a class="contact__link link" href="tel:+380 50 529 6964"target="_blank" rel="noopener noreferrer" aria-label="tel">
+                        <svg class="contact__icon" width="16" height="12">
+            <use class="contact__icon" href="./images/icon/icons.svg#phone-black"></use>
+          </svg>+380 50 529 6964</a></li>
+                    <li class="contact__item item"><a class="contact__link link" href="tel:+380 67 571 9189"target="_blank" rel="noopener noreferrer" aria-label="tel"><svg class="contact-icon" width="10" height="16">
+            <use class="contact__icon" href="./images/icon/icons.svg#phone-black"></use>
+          </svg>+380 67 571 9189</a></li>
+                    <li class="contact__item item"><a class="contact__link link" href="mailto:twpsbit@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="envelope">
+                        <svg class="contact__icon" width="16" height="12">
+                            <use class="contact__icon" href="./images/icon/icons.svg#email-black"></use>
+                          </svg>e-mail: twpsbit@gmail.com</a></li>
+                    <li class="contact__item item"><a class="contact__link link" href="tel:+380 50 327 0210"target="_blank" rel="noopener noreferrer" aria-label="tel"><svg class="contact-icon" width="10" height="16">
+            <use class="contact__icon" href="./images/icon/icons.svg#phone-black"></use>
+          </svg>+380 50 327 0210</a></li>
+                     <li class="contact__item item"><a class="contact__link link" href="tel:+380 66 343 3242"target="_blank" rel="noopener noreferrer" aria-label="tel"><svg class="contact-icon" width="10" height="16">
+            <use class="contact__icon" href="./images/icon/icons.svg#phone-black"></use>
+          </svg>+380 66 343 3242 </a></li>
+                    <li class="contact__item item"><a class="contact__link link" href="mailto:twp.natali@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="envelope">
+                        <svg class="contact-icon" width="16" height="12">
+                            <use class="contact__icon" href="./images/icon/icons.svg#email-black"></use>
+                          </svg>e-mail: twp.natali@gmail.com  </a></li>
+                    <li class="contact__item item"><a class="contact__link link" href="tel:+380 50 301 6870"target="_blank" rel="noopener noreferrer" aria-label="tel"><svg class="contact-icon" width="10" height="16">
+            <use class="contact__icon" href="./images/icon/icons.svg#phone-black"></use>
+          </svg>+380 50 301 6870 </a></li>
+                    <li class="contact__item item"><a class="contact__link link" href="mailto:twp.galina@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="envelope">
+                        <svg class="contact-icon" width="16" height="12">
+                            <use class="contact__icon" href="./images/icon/icons.svg#email-black"></use>
+                          </svg>twp.galina@gmail.com</a></li>
+                </ul>
+         </div>
                
+              <div class="contact__map"> 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2569.2338441681804!2d36.42133767529477!3d49.91318572590397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270c56181830ab%3A0x6a3185cecb0d37fa!2z0YPQuy4g0KDQvtCz0LDQvdGB0LrQsNGPLCAxNDksINCl0LDRgNGM0LrQvtCyLCDQpdCw0YDRjNC60L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgNjEwMDA!5e0!3m2!1sru!2snl!4v1685344337771!5m2!1sru!2snl&key=AIzaSyAFV6-YveLQCqn94zV8mEKGk8IjlOC8g3Q" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                    </div> 
+                </div> 
+                </section> -->
+ 
+                <h1 class="contact-info">Контактная информация</h1>
+  <p class="contact-info">Адрес: ул. Ленина, д.1</p>
+  <p class="contact-info">Телефон: +7 (123) 456-78-90</p>
+  <p class="contact-info">Электронная почта: info@example.com</p>
+
+  <h2>Карта</h2>
+  <div id="map"></div>
+
+  <script>
+    function initMap() {
+      var location = {lat: 55.7558, lng: 37.6173};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 12,
+        center: location
+      });
+      var marker = new google.maps.Marker({
+        position: location,
+        map: map
+      });
+    }
+  </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=!1m18!1m12!1m3!1d2569.2338441681804!2d36.42133767529477!3d49.91318572590397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270c56181830ab%3A0x6a3185cecb0d37fa!2z0YPQuy4g0KDQvtCz0LDQvdGB0LrQsNGPLCAxNDksINCl0LDRgNGM0LrQvtCyLCDQpdCw0YDRjNC60L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgNjEwMDA!5e0!3m2!1sru!2snl!4v1685344337771!5m2!1sru!2snl&key=AIzaSyAFV6-YveLQCqn94zV8mEKGk8IjlOC8g3Q&callback=initMap">
+  </script>
+                
+                <footer>
+                    <section class="footer section">
+                        <div class="footer__container container">
+                
+                            <div class="footer-about">
+                                <ul class="footer__list-about list">
+                                    <li class="footer__item item"><a class="footer__link-about link" href="./index.html">Про фірму</a></li>
+                                    <li class="footer__item item"><a class="footer__link-about link" href="./products.html">Продукція</a>
+                                        <ul class="footer__list-wind list" >
+                                            <li class="footer__item-wind item"><a class="footer__link-wind link" href="#">Стакани РР</a></li>
+                                            <li class="footer__item-wind item"><a class="footer__link-wind link" href="#">Стакани РS</a></li>
+                                            <li class="footer__item-wind item"><a class="footer__link-wind link" href="#">Стакани у картонній обічайці</a></li>
+                                             <li class="footer__item-wind item"><a class="footer__link-wind link" href="#">Стакани PS та РР</a></li> 
+                                             <li class="footer__item-wind item"><a class="footer__link-wind link" href="./product_1.html">Кришка полімерна</a></li>
+                                        </ul></li>
+                                    <li class="footer__item item"><a class="footer__link-about link" href="">Сертифікати</a></li>
+                                    <li class="footer__item item"><a class="footer__link-about link" href="">Контакти</a></li>
+                                </ul>
+                            </div>
+                        <div class="footer-contact">
+                            <h2 class="footer__title">СУНП "ТВП Україна ЛТД"</h2>
+                            <address class="footer-address">Україна, м.Харкiв, вул. Роганська 149</address>
+                           <ul class="footer__list list">
+                            <li class="footer__item"><a class="footer__link" href="tel:+380505296964">продаж: +380 50 529 6964</a></li>
+                            <li class="footer__item"><a class="footer__link" href="tel:+380503013626">фін: +380 50 301 3626</a></li>
+                            <li class="footer__item"><a class="footer__link" href="mailto:twp.ukr@gmail.com">e-mail: twp.ukr@gmail.com</a></li>
+                           </ul>
+                        </div>   
+                         </div>
+                    
+                   </footer>
 
   </body>
 </html>

@@ -17,14 +17,14 @@
 </head>
 <body>
    <!--шапка сайта--> 
-   <header class="header section">
+   <header class="header section lock-padding">
     <div class="logo-container container">
         <a class="logo"  href="#"><img src="./images/Logo_En.jpg" alt="logo"></a></div>
 
         <nav class="nav">
             <ul class="nav__list list" >
             <li class="nav__item item"><a class="nav__link nav__link--current nav__link--activ link" href="./index.html">Про фірму</a></li>
-            <li class="nav__item item"><a class="nav__link link" href="./products.html">Продукція &blacktriangledown;</a>
+            <li class="nav__item item"><a class="nav__link link" href="./products.html">Продукція</a>
             <ul class="nav__list-wind list" >
                 <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Стакани РР</a></li>
                 <li class="nav__item-wind item"><a class="nav__link-wind link" href="#">Стакани РS</a></li>
@@ -39,7 +39,7 @@
        
         </nav>
         <ul class="list-leng list">
-            <li class="item-leng list"><a class="link-leng link" href="#">Language &blacktriangledown;</a>
+            <li class="item-leng list"><a class="link-leng link" href="#">Language</a>
             <ul class="list-wind-leng">
                 <li class="item-wind-leng  item"><a class="link-wind-leng link" href="./doc_en.html">Engish</a></li>
             <li class="item-wind-leng item"><a class="link-wind-leng link" href="">Deutsch</a></li>
@@ -61,16 +61,17 @@
         <div class="products-container container">
     <ul class="lid__list list">
     <li class="lid__item">
-        <a class="lid__link link" href="./images/prod/0.95.002.jpg">
+        <a class="lid__link  link" data-modal-open href="#image">
         <img class="img-lid" src="./images/prod/0.95.002-2.jpg" alt="кришка 95.002">
         <div class="lid__box">
+            <!-- <a href="#popup" class="lid__popup-link">X</a> -->
             <h2 class="lid__titl">PS</h2>
             <p class="lid__text">95.002</p>
         </div>
         </a>
     </li>
     <li class="lid__item">
-        <a class="lid__link link" href="./images/prod/0.95.003-2.jpg">
+            <a class="lid__link popup-link link" href="#image">
             <img class="img-lid" src="./images/prod/0.95.003.jpg" alt="кришка 95.003">
             <div class="lid__box">
                 <h2 class="lid__titl">PS</h2>
@@ -79,7 +80,7 @@
         </a>
     </li>
     <li class="lid__item">
-        <a class="lid__link link" href="./images/prod/0.95.005-2.jpg">
+        <a class="lid__link popup-link link" href="#image">
             <img class="img-lid" src="./images/prod/0.95.005.jpg" alt="кришка 95.005">
             <div class="lid__box">
                 <h2 class="lid__titl">PS</h2>
@@ -88,7 +89,7 @@
         </a>
     </li>
     <li class="lid__item">
-        <a class="lid__link link" href="./images/prod/0.95.007.jpg">
+        <a class="lid__link popup-link link" href="#image">
             <img class="img-lid" src="./images/prod/0.95.007-2.jpg" alt="кришка 95.007">
             <div class="lid__box">
                 <h2 class="lid__titl">PP</h2>
@@ -135,5 +136,23 @@
              </div>
         </section>
        </footer>
+
+       <!-- Trigger the Modal -->
+       <!--/<img id="myImg" src="./images/prod/0.95.007.jpg" alt="glass-095.007" style="width:100%;max-width:300px">-->
+<div id="popup" class="popup">
+    <div class="popup__body">
+    <div class="popup__content_image">
+       <div class="pupup__image">
+        <button type="button" class="modal-btn" data-modal-close>
+            <svg class="modal-btn__icon" width="20" height="20">
+              <use class="" href="./images/icons.svg#close-black"></use>
+            </svg>
+          </button>
+        <img src="./images/prod/0.95.002.jpg" alt="lid">
+       </div>
+    </div>
+</div>   
+</div>
+<script src="js/popups.js"></script>
 </body>
 </html>
