@@ -271,15 +271,15 @@ img {
     position: absolute;
     justify-content: start;
     align-items: center;
-    margin-top: 55%;
+    margin-top: 80%;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero__container-img {
     display: flex;
     position: absolute;
-    margin-left: -40px;
-    margin-top: 63px;
+    margin-left: -90px;
+    margin-top: 120px;
   }
 }
 
@@ -312,14 +312,9 @@ img {
   }
 }
 
-.hero-container-text {
-  margin-left: 50px;
-  padding: 20px;
-}
-
 .hero__text {
   color: #191970;
-  padding-left: 15px;
+  padding: 25px;
   margin-bottom: 12px;
   font-weight: 400;
   font-size: 20px;
