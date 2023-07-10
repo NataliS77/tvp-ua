@@ -63,7 +63,6 @@ img {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -261,6 +260,14 @@ img {
   text-transform: uppercase;
 }
 
+.hero__img {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
 .hero__container-img {
   display: none;
   padding: 20px;
@@ -271,7 +278,7 @@ img {
     position: absolute;
     justify-content: start;
     align-items: center;
-    margin-top: 80%;
+    margin-top: 68%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -310,6 +317,11 @@ img {
     justify-content: end;
     align-items: center;
   }
+}
+
+.hero-container-text {
+  margin-left: 20px;
+  padding: 25px;
 }
 
 .hero__text {

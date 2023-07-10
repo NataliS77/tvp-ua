@@ -29,10 +29,16 @@
   
         text-transform: uppercase;
 }
-// .hero-container-text{
 
-     
-// }
+.hero__img{
+    max-width: 100%;
+    height: auto;
+    
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 30px;
+    
+}
 .hero__container-img{
     display: none;
   padding: 20px;
@@ -44,7 +50,7 @@
     justify-content: start;
     align-items: center;
   
-    margin-top: 80%;
+    margin-top: 68%;
 
 }
 @media screen and (min-width:1200px) {
@@ -84,10 +90,10 @@
       }
 }
   
-// .hero-container-text{
-//     margin-left: 50px;
-//     padding: 20px;
-// }
+.hero-container-text{
+    margin-left: 20px;
+    padding: 25px;
+}
 
 .hero__text{
     color: $primaryTextColor;
